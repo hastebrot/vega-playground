@@ -1,0 +1,73 @@
+{
+  "name": "vega-playground",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Benjamin Gudehus <hastebrot@gmail.com>",
+  "scripts": {
+    "site": "craco start",
+    "site:build": "craco build",
+    "site:test": "craco test --verbose=false --runInBand",
+    "lint:style": "prettier \"src/**/*.{js,json,md}\" --write"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "d3": "^5.9.7",
+    "fannypack": "^4.21.7",
+    "lodash": "^4.17.14",
+    "ow": "^0.13.2",
+    "prop-types": "^15.7.2",
+    "ramda": "^0.26.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-vega": "^6.1.0",
+    "react-vega-lite": "^6.1.0",
+    "typeface-public-sans": "^1.0.5",
+    "vega": "^5.4.0",
+    "vega-lite": "3.3.0",
+    "vega-lite-api": "^0.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.5.0",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "@craco/craco": "^5.2.4",
+    "@types/node": "^12.6.2",
+    "@types/jest": "^24.0.15",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "prettier": "^1.18.2",
+    "react-hooks-testing-library": "^0.6.0",
+    "react-scripts": "^3.0.1",
+    "react-test-renderer": "^16.8.6",
+    "style-loader": "^0.23.1"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": false,
+    "arrowParens": "avoid",
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
