@@ -12,6 +12,7 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "d3": "^5.9.7",
+    "dataflow-api": "^0.1.0",
     "fannypack": "^4.21.7",
     "lodash": "^4.17.14",
     "ow": "^0.13.2",
